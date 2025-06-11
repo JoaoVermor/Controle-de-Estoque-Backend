@@ -1,6 +1,6 @@
 import { Controller, Get, Post, Put, Delete, Body, Param, Query } from '@nestjs/common';
 import { EquipmentService } from './equipment.service';
-import { Equipment, EquipmentType } from '@prisma/client';
+import { Equipment, EquipmentType } from '../../prisma/app/generated/prisma/client';
 import { AuthGuard } from '@nestjs/passport';
 import { UseGuards } from '@nestjs/common';
 
