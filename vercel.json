@@ -10,7 +10,6 @@
         {
             "src": "/(.*)",
             "dest": "src/main.ts",
-            "origin": "https://falcon6rocketdesign.vercel.app/",
             "methods": [
                 "GET",
                 "POST",
